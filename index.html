@@ -10,89 +10,33 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
-
+    <style>
+        .link-style:hover{
+            text-decoration:underline;
+        }
+    </style>
 </head>
 
 <body>
 
     <div class="container bg-light text-dark">
-        <header class="bg-primary text-white py-3 text-center text-md-right ">
-            <!--Py-3 means padding 3 ar y axis , same can be px -->
-
-            <h1>Software Engineer Faisal</h1>
-        </header>
-        <main>
-
-
-            <!--About Me section-->
-            <div class="about-section">
-                <div class="jumbotron-fluid pt-2">
-
-                    <div class="title text-center ml-5 ">
-                        <h1 class="font-weight-bolder">About Me</h1>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-4 text-center">
-                            <img class="img-fluid rounded-circle img-thumbnail" src="./images/faisal.jpg" alt="myImage">
-                        </div>
-                        <div class="col-lg-6 p-5 mt-5 ">
-                            <p>
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                                Ipsum ratione porro at inventore, cumque voluptatum!
-                                Laborum vitae esse quasi corrupti voluptate eaque
-                                temporibus nobis, dicta omnis ut architecto suscipit
-                                modi similique laudantium repellendus iste. Quibusdam
-                                quas recusandae omnis illum tenetur provident mollitia,
-                                modi atque hic incidunt voluptate quaerat nulla! Corrupti assumenda repellat voluptate
-                                deserunt fuga maiores officiis
-                                
-                                <a class="d-block btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
-                                    aria-controls="collapseExample">
-                                    Link with href
-                                </a>
-                                <div class="collapse" id="collapseExample">
-                                    <div class="card card-body">
-                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim
-                                        keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-                                    </div>
-                                </div>
-                           
-
-
-                            </p>
-
-
-
-                        </div>
-
-                    </div>
-
+        <!--Navigation Menu-->
+       <header class="bg-primary">
+            <div class="row">
+                <div class="col-lg-5 m-auto">
+                    <h2 class="bolder text-white p-2">Mahbub Hossain Faisal</h2>
                 </div>
-            </div>
-
-            <!--list group-->
-            <div>
-                <div class="student-list text-center">
-                    <h2>Student List</h2>
-                    <ul class="list-group">
-                        <li class="list-group-item bg-primary text-white">Mahbub Hossain</li>
-                        <li class="list-group-item bg-success text-white">Ariful Islam</li>
-                        <li class="list-group-item bg-secondary text-white">Sakib Ahmed</li>
-                        <!--Link can be also use these classes-->
-                        <a href="#" class="list-group-item list-group-item-action bg-danger text-white">Raihan Ahmed</a>
+                <div class="col-lg-7">
+                    <ul class="nav justify-content-center p-3">
+                        <li class="nav-item"><a class="link-style text-white nav-link" href="#">Home</a> </li>
+                        <li class="nav-item"><a class=" link-style text-white nav-link" href="#">About</a> </li>
+                        <li class="nav-item"><a class=" link-style text-white nav-link" href="#">Contact me</a> </li>
                     </ul>
                 </div>
             </div>
+       </header>
+        <main>
 
-            <!--Pagination-->
-            <footer class="bg-warning">
-                <ul class="pagination py-2 justify-content-center">
-                    <li class="page-item"> <a class="page-link" href="#">1</a> </li>
-                    <li class="page-item"> <a class="page-link" href="#">2</a> </li>
-                    <li class="page-item"> <a class="page-link" href="#">3</a></li>
-                    <li class="page-item"> <a class="page-link" href="#">4</a></li>
-                </ul>
-            </footer>
         </main>
 
     </div>
