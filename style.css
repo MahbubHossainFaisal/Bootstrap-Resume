@@ -1,8 +1,30 @@
-.container{
-    background-color: black;
-    color: white;
+/*
+
+Bootstrap Container Breakpoints
+
+
+x small --- < 100%
+small --- sm --- >=540px
+medium --- md --- >= 720px
+large --- lg --- >= 960px
+Extra large --- xl --- >=1140px
+Extra Extra large --- xxl --- >= 1320px
+
+*/
+.row {
+    margin-bottom: 20px;
 }
 
-img{
- border: 2px solid black;
+.row div div{
+    background: blueviolet;
+    border: 5px solid darkblue;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.row .row div div{
+    background: yellow;
+    color: darkblue;
+    padding: auto;
 }
