@@ -13,18 +13,14 @@ Extra Extra large --- xxl --- >= 1320px
 */
 .row {
     margin-bottom: 20px;
+    height: 200px;
+    background: cadetblue;
 }
 
-.row div div{
-    background: blueviolet;
-    border: 5px solid darkblue;
+.row div {
+    background: red;
+    border: 2px solid darkblue;
+    color: #fff;
     padding: 20px;
     text-align: center;
-    margin-bottom: 20px;
-}
-
-.row .row div div{
-    background: yellow;
-    color: darkblue;
-    padding: auto;
 }
