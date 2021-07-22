@@ -11,16 +11,81 @@ Extra large --- xl --- >=1140px
 Extra Extra large --- xxl --- >= 1320px
 
 */
-.row {
-    margin-bottom: 20px;
-    height: 200px;
-    background: cadetblue;
+
+html {
+    scroll-behavior: smooth;
 }
 
-.row div div {
-    background: red;
-    
-    color: #fff;
-    padding: 20px;
-    text-align: center;
+body {
+    background-color: rgba(169, 169, 169, 0.3);
+    font-family: 'Handlee', cursive;
+    font-family: 'Montserrat', sans-serif;
 }
+
+h1,
+h2,
+h3,
+h4,
+h4,
+h6 {
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+
+/* Header start */
+
+header {
+    background-image: url(./images/background.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+}
+
+.navbar {
+    padding: 1% 5%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.navbar-icon {
+    color: white;
+}
+
+.nav-link {
+    margin: 0.6rem;
+    border-radius: 0.5rem;
+    transition: .4s;
+}
+
+.nav-link:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    transform: scale(1.1);
+}
+
+.banner-container {
+    height: 100vh;
+
+}
+
+.banner-container h1 {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: rgba(0, 0, 0, 0.7);
+    padding: 0.6rem 0.7rem;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 0.3rem;
+}
+
+.banner-container h2 {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: rgba(0, 0, 0, 0.7);
+    padding: 0.2rem 0.3rem;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 0.3rem;
+}
+
+.banner-container button:hover {
+    transform: scale(1.1);
+}
+
+/* Header ends */

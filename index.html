@@ -6,6 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mahbub Hossain Faisal</title>
+    <!--Google fonr handlee-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <!--Montserrat-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <!--Roboto-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <!--Font awesome cdn-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
@@ -14,37 +26,70 @@
 </head>
 
 <body>
+    <div class="container">
+        <header>
+            <nav class="navbar navbar-expand-md">
 
-    <div class="container mb-5">
-        <div class="row gx-5">
-            <div class="col-md-4">
-                <div class="child">Gutter</div>
-            </div>
-            <div class="col-md-4">
-                <div class="child">Gutter</div>
-            </div>
-            <div class="col-md-4">
-                <div class="child">Gutter</div>
-            </div>
-            <div class="col-md-4">
-                <div class="child">Gutter</div>
-            </div>
-            <div class="col-md-4">
-                <div class="child">Gutter</div>
-            </div>
-            <div class="col-md-4">
-                <div class="child">Gutter</div>
-            </div>
-        </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span> <i class="fas fa-bars navbar-icon"></i></span>
+                </button>
 
-       
+                <a class="navbar-brand text-dark ms-auto" href="#">
+                    <img src="./images/logo.png" height="80rem" width="100rem"  alt="logo">
+                </a>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link text-white text-center text-md-left fs-5" href="#">Home </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white text-center text-md-left fs-5" href="#">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white text-center text-md-left fs-5" href="#">My Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white text-center text-md-left fs-5" href="#">Feedback</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white text-center text-md-left fs-5" href="#">Contact Me</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </nav>
+
+            <section id="banner">
+                <!--align-items-center center the items vertically, and justify-content-center center the items horizontally and two use these two we need d-flex-->
+                <div class="banner-container d-flex justify-content-center align-items-center">
+                    <div class="banner-contents text-center">
+                        <h1 class="font-weight-bolder fst-italic  mt-5">Hi, I'm Mahbub Hossain Faisal</h1>
+                        <h2 class="font-weight-bolder fst-italic  mt-2">A Passionate Learner!!!</h2>
+                        <button class="btn btn-light me-1" onclick="window.open('https://github.com/MahbubHossainFaisal')" class="request-callback"> <i class="fab fa-github me-1"></i> Github</button>
+                        <button class="btn btn-light ms-1" onclick="window.open('https://linkedin.com/in/mahbub-hossain-faisal-5710a8190')" class="request-callback"> <i class="fab fa-linkedin me-1"></i>Linkedin</button>
+                    </div>
+                </div>
+            </section>
+            <!--Banner-->
+
+        </header>
     </div>
 
-    
-    
-    
-    </div>
 
+    <!--Bootstrap Javascript-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
