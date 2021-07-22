@@ -17,9 +17,9 @@ Extra Extra large --- xxl --- >= 1320px
     background: cadetblue;
 }
 
-.row div {
+.row div div {
     background: red;
-    border: 2px solid darkblue;
+    
     color: #fff;
     padding: 20px;
     text-align: center;
